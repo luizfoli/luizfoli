@@ -59,6 +59,10 @@ body {
     color: var(--second-color);
 }
 
+.about_me__title img {
+    width: 30rem;
+}
+
 .about_me__title h2 {
     font-weight: 200;
 }
