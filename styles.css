@@ -1,0 +1,48 @@
+:root {
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Iowan Old Style, Seravek, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    --main-color: #40739e;
+    --second-color: #353b48;
+    
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_menu {
+    width: 60%;
+    height: 80%;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.main_menu__grid_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 2px solid var(--second-color);
+}
+
+.main_menu__grid_links h1 {
+    margin-right: auto;
+    color: var(--main-color);
+}
+
+.main_menu__grid_links a {
+    margin: 0 1rem;
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+
