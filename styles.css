@@ -20,9 +20,9 @@ body {
 }
 
 .main_menu {
-    width: 60%;
-    height: 80%;
-    padding: 2rem;
+    width: 80%;
+    height: 90%;
+    margin: 2rem;
     font-size: 2rem;
 }
 
@@ -37,6 +37,7 @@ body {
 .main_menu__grid_links h1 {
     margin-right: auto;
     color: var(--main-color);
+    font-weight: 600;
 }
 
 .main_menu__grid_links a {
@@ -45,4 +46,29 @@ body {
     text-decoration: none;
 }
 
+.about_me {
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+}
 
+.about_me__title {
+    width: 100%;
+    text-align: center;
+    color: var(--second-color);
+}
+
+.about_me__title h2 {
+    font-weight: 200;
+}
+
+.about_me__title h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+.about_me__text {
+    width: 80%;
+    color: var(--second-color);
+}
